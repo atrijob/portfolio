@@ -13,7 +13,7 @@ const PhotoPortfolio: NextPage = () => {
   return (
     <div className="flex flex-col items-center gap-3">
       <div>View my photos here!</div>
-      <Image src={projectImage} />
+      <Image alt="" src={projectImage} />
       <Link className="hover:text-red-500 font-semibold underline" href="/">
         Back
       </Link>
